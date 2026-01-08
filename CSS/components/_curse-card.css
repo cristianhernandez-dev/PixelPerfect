@@ -1,0 +1,30 @@
+.course-card {
+  background-color: $background-color;
+  padding: 1.5rem;
+  border-radius: $border-radius;
+  width: 320px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  &__title {
+    color: $primary-color;
+    margin-bottom: 0.5rem;
+  }
+
+  &__description {
+    color: $text-color;
+    margin-bottom: 1rem;
+  }
+
+  &__button {
+    background-color: $primary-color;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  &--featured {
+    border: 2px solid $primary-color;
+  }
+}
